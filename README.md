@@ -59,7 +59,8 @@ We evaluate the following model extraction strategies:
 
 - **Ours**: Query-efficient framework (ours)
 - **EvoKD**: Entropy-based query scheduling
-- **Model Leeching**: Passive prompt sampling from real benchmarks
+- **Model Leeching**: Passive extraction using raw prompts sampled from unstructured QA data
+
 - **Ablations**: `wocluster`, `wocoq`, `woFB` test the removal of each module
 
 ---
